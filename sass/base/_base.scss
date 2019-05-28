@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before { 			//reset everything, so all browsers render the same way
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit; //box-sizing not inherited by default. Set it in body
+}
+
+html {
+	font-size: 62.5%; //Defines that 1rem = 1px. Allows user to zoom in on page
+}
+
+body {
+	box-sizing: border-box;
+}
